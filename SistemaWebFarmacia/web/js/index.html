@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Tag das dimensões do bootstrap -->
+
+<!-- Bootstrap CSS -->
+<link rel="icon" href="imagens/icon/favicon.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="estilo.css" rel="stylesheet">
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#telefone').mask('00000.00.00.0000');
+      });
+</script>
+</head>
+<body>
+
+<div class="cadusuario">
+  <div class="row">
+    <div class="col-md-4">
+      <form action="cadastrarusuario.php" method="POST">
+        <label>E-mail/Login</label>
+        <input type="text" class="form-control" placeholder="Digite seu e-mail.." id="login" name="login"><br>
+        <label>Nova Senha</label>
+        <input type="password" class="form-control" placeholder="Digite sua nova senha.." id="senha" name="senha"><br>
+        <label>Repita a Senha</label>
+        <input type="password" class="form-control" placeholder="Digite sua nova senha.." id="senha2" name="senha2"><br>
+        <label>Telefone</label>
+        <input type="text" class="form-control" placeholder="Telefone" id="telefone" name="telefone" ><br>
+        <label>Celular</label>
+        <input type="text" class="form-control" placeholder="Celular" id="celular" name="celular" ><br>
+        <button type="submit" class="btn btn-default btn-roxo">Cadastre-se</button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
