@@ -13,5 +13,6 @@ Sistema desenvolvido para cadastro de clientes, funcionários e medicamentos em 
 - Banco de dados Mysql (Modelo Entidade-Relacionamento);
 - UML (Diagrama de clases, caso de uso geral e específico e de sequência);
 - Progrmação Orientada a Objeto;
+- Diagrama de Atividades com Bizagi
 ### Frameworks:
 - Bootstrap
