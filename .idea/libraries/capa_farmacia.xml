@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="capa_farmacia">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Arquivos da documentação/capa_farmacia.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
